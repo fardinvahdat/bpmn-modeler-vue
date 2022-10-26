@@ -11,7 +11,7 @@ export default class BpmData {
     this.controls = [
       {
         action: 'create.start-event',
-        title: '开始'
+        title: 'تست'
       },
       {
         action: 'create.intermediate-event',

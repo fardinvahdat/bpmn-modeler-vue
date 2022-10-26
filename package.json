@@ -1,5 +1,5 @@
 {
-  "name": "workflow-bpmn-modeler",
+  "name": "persian-bpmn-modeler",
   "version": "0.2.8",
   "description": "基于 `vue` 和 `bpmn.io@7.0` ，实现 flowable 的 modeler 模型设计器",
   "main": "dist/workflow-bpmn-modeler.umd.min.js",
@@ -18,13 +18,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GoldSubmarine/workflow-bpmn-modeler.git"
+    "url": "git+https://github.com/fardinvahdat/bpmn-modeler-vue.git"
   },
   "keywords": [
     "vue",
     "element-ui",
-    "flowable",
-    "模型设计器"
+    "flowable"
   ],
   "author": {
     "name": "charles",
