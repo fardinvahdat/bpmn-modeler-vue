@@ -1,5 +1,5 @@
 {
-  "name": "persian-bpmn-modeler",
+  "name": "workflow-bpmn-modeler",
   "version": "0.2.8",
   "description": "基于 `vue` 和 `bpmn.io@7.0` ，实现 flowable 的 modeler 模型设计器",
   "main": "dist/workflow-bpmn-modeler.umd.min.js",
@@ -9,21 +9,20 @@
     "lib": "cross-env NODE_ENV=lib vue-cli-service build",
     "cdn": "cross-env NODE_ENV=cdn vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build": "cross-env NODE_ENV=build vue-cli-service build --target lib --inline-vue --entry package/index.js",
-    "prepublish": "yarn build",
-    "postpublish": "yarn lib && yarn cdn && yarn demo"
+    "build": "cross-env NODE_ENV=build vue-cli-service build --target lib --inline-vue --entry package/index.js"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fardinvahdat/bpmn-modeler-vue.git"
+    "url": "git+https://github.com/GoldSubmarine/workflow-bpmn-modeler.git"
   },
   "keywords": [
     "vue",
     "element-ui",
-    "flowable"
+    "flowable",
+    "模型设计器"
   ],
   "author": {
     "name": "charles",
